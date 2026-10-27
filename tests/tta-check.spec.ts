@@ -6,4 +6,4 @@ test('test', async ({ page }) => {
   await page.getByRole('textbox', { name: 'Email Address' }).fill('harshithamt@gmail.com');
   await page.getByRole('textbox', { name: 'Password' }).click();
   await page.getByRole('textbox', { name: 'Password' }).fill('12345');
-});
+}); 
